@@ -7,7 +7,7 @@ This code is an improved version of the Nielsen's implementation from 'http://ne
 Requirements :
 - the activation function from the last layer must take positive values
 - the activation functions and loss function must be given with the name from 'Activations_Module.py', 'Loss_Module.py'
-- the optimizer must be chosen with the name from 'Optimizers_Module.pu'
+- the optimizer must be chosen with the name from 'Optimizers_Module.py'
 
 
 
@@ -63,3 +63,4 @@ Future implementation :
 - L2 regularization
 - modifying NaG (Nesterov) and Momentum (Polyak) so that they depend on the current iteration, i.e. gamma is a function of iterations or epochs
 - implement cross-validation
+- implement dropout technique
