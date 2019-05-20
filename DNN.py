@@ -86,7 +86,7 @@ class neural_network():
       
       print('Give the activation functions : ')
       for i in np.arange(2, self.number_of_layers+1):
-         print(' The activation function between layers {} and {} .......... '.format(i ,i+1)) 
+         print(' The activation function between layers {} and {} .......... '.format(i-1 ,i)) 
          
          self.activ_list.append(input(''))
          self.activ_list[-1] = ''.join((self.activ_list[-1]).split()).lower()
